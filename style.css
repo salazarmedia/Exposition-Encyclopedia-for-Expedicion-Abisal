@@ -1,0 +1,522 @@
+@font-face {
+  font-family: 'agrandirwide_bold';
+  src: url('/Fonts/agrandir-widebold-webfont.woff') format('woff2'),
+    url('/Fonts/agrandir-widebold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_proitalic';
+  src: url('/Fonts/sourcesanspro-italic-webfont.woff2') format('woff2'),
+    url('/Fonts/sourcesanspro-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_prolight';
+  src: url('/Fonts/sourcesanspro-light-webfont.woff2') format('woff2'),
+    url('/Fonts/sourcesanspro-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_prolight_italic';
+  src: url('/Fonts/sourcesanspro-lightitalic-webfont.woff2') format('woff2'),
+    url('/Fonts/sourcesanspro-lightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_proregular';
+  src: url('/Fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+    url('/Fonts/sourcesanspro-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_prosemibold';
+  src: url('/Fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+    url('/Fonts/sourcesanspro-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_proSBdIt';
+  src: url('/Fonts/sourcesanspro-semibolditalic-webfont.woff2') format('woff2'),
+    url('/Fonts/sourcesanspro-semibolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_problack';
+  src: url('/Fonts/sourcesanspro-black-webfont.woff2') format('woff2'),
+    url('/Fonts/sourcesanspro-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_problack_italic';
+  src: url('/Fonts/sourcesanspro-blackitalic-webfont.woff2') format('woff2'),
+    url('/Fonts/sourcesanspro-blackitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Estilos base */
+:root {
+  --titulo: 'agrandirwide_bold', Helvetica, sans-serif;
+  --cuerpo-importante: 'source_sans_prosemibold', sans-serif;
+  --cuerpo: 'source_sans_proregular', sans-serif;
+  --subtitulo: 'source_sans_problack', Helvetica, sans-serif;
+  --fs-title: clamp(1.5rem, 5vw + 1rem, 3rem);
+  --fs-description: clamp(0.5rem, 2.5vw + 0.2rem, 2rem);
+  --fs-subtitle: clamp(0.5rem, 3vw + 0.3rem, 1.5rem);
+  --fs-text: clamp(0.5rem, 2.25vw + 0.2rem, 1.5rem);
+}
+html {
+  background: azure;
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+  display: block;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: clamp(5rem, 10vw + 5rem, 9rem);
+  padding-bottom: 24px;
+  overflow-x: hidden;
+}
+#speciesbody {
+  padding-top: clamp(3rem, 5vw + 4rem, 6.5rem);
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 8px;
+  gap: 8px;
+}
+.header {
+  grid-column: span 4;
+}
+h1 {
+  font-family: var(--titulo);
+  font-size: var(--fs-title);
+  line-height: 1.2em;
+  color: white;
+  grid-column: span 4;
+  background: #000063;
+  top: 0px;
+  left: 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 20px;
+  padding-bottom: 8px;
+  position: absolute;
+  width: 100%;
+}
+#speciesname {
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+  transform: translate(-2%);
+}
+h2 {
+  font-family: var(--titulo);
+  font-size: var(--fs-subtitle);
+  color: #6798e8;
+  text-align: center;
+  transform: translate(-2%);
+  margin-top: 0.25rem;
+  margin-bottom: 1.25rem;
+}
+#galleryt {
+  margin-top: 2rem;
+  margin-bottom: 0.2rem;
+}
+.description {
+  padding-top: 0.5vh;
+  padding-bottom:1vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-bottom: 1vw;
+  grid-column: span 4;
+  font-family: var(--cuerpo-importante);
+  font-size: var(--fs-description);
+}
+#speciesdescription {
+  font-family: var(--cuerpo);
+  padding-left: 10vw;
+  padding-right: 8vw;
+}
+#descmap {
+  font-family: var(--cuerpo);
+  font-size: calc(var(--fs-description) / 1.25);
+  font-style: italic;
+  padding-left: 4vw;
+  color: #6798e8;
+  margin-bottom: 0.5rem;
+}
+#gallerydescription {
+  font-family: var(--cuerpo);
+  font-size: calc(var(--fs-description) / 1.15);
+  padding-left: 10vw;
+  padding-right: 8vw;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+.searchbar {
+  grid-column: span 4;
+  position: relative;
+  background: azure;
+  outline: 4px solid #000063;
+  width: 70vw;
+  height: 3rem;
+  border-radius: 100vh;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 5px #bfbfbf;
+  margin-bottom: 2vw;
+}
+.searchbar .icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(5%, -50%);
+  height: 50px;
+  width: 50px;
+  border-radius: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.searchbar .icon::before {
+  content: '';
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  border: 3.5px solid #5d1c81;
+  border-radius: 100vh;
+  transform: translate(-1px, -2px);
+}
+.searchbar .icon::after {
+  content: '';
+  position: absolute;
+  height: 12px;
+  width: 3.5px;
+  background: #5d1c81;
+  border-radius: 100vh;
+  transform: translate(9px, 8px) rotate(315deg);
+}
+.searchbar .input {
+  position: relative;
+  width: 70%;
+  height: 2.2rem;
+  left: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbar .input input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -32%);
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: clamp(0.15rem, 4vw + 0.2rem, 1rem);
+  font-family: var(--cuerpo-importante);
+  font-style: italic;
+  padding-bottom: 6px 0;
+  background: azure;
+}
+.clear {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-22%, -50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 100vh;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clear::before {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 16px;
+  background: #999;
+  transform: rotate(45deg);
+  border-radius: 100vh;
+}
+.clear::after {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 16px;
+  background: #999;
+  transform: rotate(315deg);
+  border-radius: 100vh;
+}
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  grid-column: span 4;
+  align-items: center;
+}
+.card {
+  margin-top: 1rem;
+  position: relative;
+  background: #6798e8;
+  border-radius: 0.7rem;
+  line-height: 1rem;
+  height: clamp(4.8rem, 13vw + 1rem, 7.8rem);
+  max-width: 900px;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas: 
+   'card-header map'
+   'card-body map';
+}
+#card-link {
+  color: black;
+  text-decoration: none;
+}
+.card-header {
+  grid-area: card-header;
+  color: azure;
+  font-family: var(--subtitulo);
+  font-size: var(--fs-subtitle);
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  margin-right: 1.5vw;
+}
+.card-body{
+  grid-area: card-body;
+  font-family: var(--cuerpo);
+  font-size: var(--fs-text);
+  margin-right: 1.5vw;
+  height: clamp(2.8rem, 7vw, 4.5rem);
+  line-height: 1em;
+}
+.map{
+  margin-top: 0.5vw;
+  grid-area: map;
+  border: 2px dashed red;
+  border-radius: 0.5rem;
+  min-width: 8rem;
+  height: clamp(4rem, 11vw + 1rem, 7rem);
+}
+#speciesmap {
+  margin: 2vw;
+  margin-right: 1.5vw;
+  height: clamp(20rem, 40vw + 1rem, 50vw);
+  max-height: 50vw;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+.gallery-wrapper {
+  margin: 2vw;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 200px;
+  grid-auto-flow: dense;
+
+}
+.pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed red;
+  border-radius: 0.5rem;
+}
+.pic .img {
+  width: 100;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
