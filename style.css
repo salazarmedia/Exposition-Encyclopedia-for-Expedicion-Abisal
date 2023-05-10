@@ -253,6 +253,9 @@ body {
   padding-bottom: 24px;
   overflow-x: hidden;
 }
+.overflow {
+  overflow-x: hidden;
+}
 #speciesbody {
   padding-top: clamp(3rem, 5vw + 4rem, 6.5rem);
 }
