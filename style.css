@@ -242,6 +242,7 @@ table {
 html {
   background: azure;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   position: relative;
