@@ -427,7 +427,7 @@ input[type='search']::-webkit-search-results-decoration {
   color: azure;
   font-family: var(--titulo);
   font-size: calc(var(--fs-subtitle) * 0.9);
-  margin-top: 0.5vw;
+  margin-top: 1vw;
   margin-bottom: 0.1vw;
   margin-right: 0.4rem;
   margin-left: 0.45rem;
