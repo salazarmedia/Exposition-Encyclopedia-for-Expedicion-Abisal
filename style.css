@@ -409,20 +409,18 @@ input[type='search']::-webkit-search-results-decoration {
   background: #6798e8;
   border-radius: 0.7rem;
   line-height: 1rem;
-  min-width: 87vw;
+  width: 89vw;
   height: clamp(4.8rem, 13vw + 1rem, 7.8rem);
   max-width: 900px;
-  padding: 1rem;
+  padding: 0.2rem;
   display: grid;
+  align-items: center;
+  justify-content: center;
   grid-template-columns: 1.5fr 1fr;
   grid-template-rows: 1fr 2fr;
   grid-template-areas:
     'card-header map'
     'card-body map';
-}
-#card-link {
-  color: black;
-  text-decoration: none;
 }
 .card-header {
   grid-area: card-header;
@@ -431,6 +429,9 @@ input[type='search']::-webkit-search-results-decoration {
   font-size: calc(var(--fs-subtitle) * 0.9);
   margin-top: 1vw;
   margin-bottom: 1vw;
+  margin-right: 0.5rem;
+  margin-left: 0.2rem;
+  border:2px solid red;
 }
 .card-body {
   grid-area: card-body;
@@ -440,9 +441,13 @@ input[type='search']::-webkit-search-results-decoration {
   line-height: 1em;
   display: flex;
   align-items: center;
+  margin-right: 0.5rem;
+  margin-left: 0.2rem;
+  border:2px solid red;
 }
 .map {
   margin-top: 0.5vw;
+  margin-right: 0.2rem;
   grid-area: map;
   border: 2px dashed red;
   border-radius: 0.5rem;
