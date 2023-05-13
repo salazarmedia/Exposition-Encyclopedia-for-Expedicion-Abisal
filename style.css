@@ -492,6 +492,5 @@ img {
   white-space: pre-wrap;
 }
 .mapcontainer{
-  border: 2px solid red;
   transform: translate(0, -9.5%);
 }
