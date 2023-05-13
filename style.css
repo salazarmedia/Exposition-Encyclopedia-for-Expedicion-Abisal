@@ -259,7 +259,7 @@ h2 {
   transform: translate(0, 50%);
 }
 #galleryt {
-  margin-top: 2rem;
+  margin-top: 0;
   margin-bottom: 0.2rem;
 }
 .description {
@@ -284,6 +284,7 @@ h2 {
   padding-left: 4vw;
   color: #6798e8;
   margin-bottom: 0.5rem;
+  transform: translate(0, -140%);
 }
 #gallerydescription {
   font-family: var(--cuerpo);
@@ -489,4 +490,8 @@ img {
 }
 .main-wrapper{
   white-space: pre-wrap;
+}
+.mapcontainer{
+  border: 2px solid red;
+  transform: translate(0, -9.5%);
 }
