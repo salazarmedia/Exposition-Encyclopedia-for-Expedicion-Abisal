@@ -427,11 +427,11 @@ input[type='search']::-webkit-search-results-decoration {
   color: azure;
   font-family: var(--titulo);
   font-size: calc(var(--fs-subtitle) * 0.9);
-  margin-top: 1vw;
-  margin-bottom: 1vw;
-  margin-right: 0.5rem;
-  margin-left: 0.2rem;
-  border:2px solid red;
+  margin-top: 0.5vw;
+  margin-bottom: 0.1vw;
+  margin-right: 0.4rem;
+  margin-left: 0.45rem;
+  border: 2px solid red;
 }
 .card-body {
   grid-area: card-body;
@@ -441,16 +441,20 @@ input[type='search']::-webkit-search-results-decoration {
   line-height: 1em;
   display: flex;
   align-items: center;
-  margin-right: 0.5rem;
-  margin-left: 0.2rem;
+  margin-right: 0.4rem;
+  margin-left: 0.45rem;
+  margin-bottom: 0.5vw;
+  border: 2px solid red;
 }
 .map {
   margin-top: 0.5vw;
-  margin-right: 0.2rem;
+  margin-bottom: 0.5vw;
+  margin-right: 0.45rem;
   grid-area: map;
   border-radius: 0.5rem;
   min-width: 8rem;
   height: clamp(4rem, 11vw + 1rem, 7rem);
+  border: 2px solid red;
 }
 img {
   max-width: 100%;
