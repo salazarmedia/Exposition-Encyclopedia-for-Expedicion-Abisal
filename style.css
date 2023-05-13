@@ -431,7 +431,7 @@ input[type='search']::-webkit-search-results-decoration {
   margin-bottom: 0.1vw;
   margin-right: 0.4rem;
   margin-left: 0.45rem;
-  border: 2px solid red;
+  border: 2px none;
 }
 .card-body {
   grid-area: card-body;
@@ -444,7 +444,7 @@ input[type='search']::-webkit-search-results-decoration {
   margin-right: 0.4rem;
   margin-left: 0.45rem;
   margin-bottom: 0.5vw;
-  border: 2px solid red;
+  border: 2px none;
 }
 .map {
   margin-top: 0.5vw;
