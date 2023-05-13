@@ -443,13 +443,11 @@ input[type='search']::-webkit-search-results-decoration {
   align-items: center;
   margin-right: 0.5rem;
   margin-left: 0.2rem;
-  border:2px solid red;
 }
 .map {
   margin-top: 0.5vw;
   margin-right: 0.2rem;
   grid-area: map;
-  border: 2px dashed red;
   border-radius: 0.5rem;
   min-width: 8rem;
   height: clamp(4rem, 11vw + 1rem, 7rem);

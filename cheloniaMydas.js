@@ -17,13 +17,12 @@ mainContainer.append(spPage);
     console.log(title);
   });
 
-
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
 L.tileLayer('https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@1x.png?taxonKey=2442225&bin=hex&hexPerTile=50&style=iNaturalist.poly', {
     maxZoom: 19,
 }).addTo(map);
 
+map.attributionControl.setPrefix(false);
