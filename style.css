@@ -409,7 +409,7 @@ input[type='search']::-webkit-search-results-decoration {
   background: #6798e8;
   border-radius: 0.7rem;
   line-height: 1rem;
-  width: 87vw;
+  min-width: 87vw;
   height: clamp(4.8rem, 13vw + 1rem, 7.8rem);
   max-width: 900px;
   padding: 1rem;
