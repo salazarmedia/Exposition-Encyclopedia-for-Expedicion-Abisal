@@ -1,0 +1,15 @@
+.mapcontainer {
+    height: clamp(20rem, 40vw + 1rem, 50vw);
+    margin: 2vw;
+    margin-top: 2rem;
+    margin-bottom: 0.25rem;
+    border-radius: 1rem;
+    position: relative;
+}
+#speciesmap {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    z-index: 0;
+}
+
