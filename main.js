@@ -23,11 +23,10 @@ fetch('./species.json')
       const card = infoTemplate.content.cloneNode(true).children[0];
       const header = card.querySelector('[data-header]');
       const body = card.querySelector('[data-body]');
-      const link = card.querySelector('[card-link]');
       const linkText = specie.link;
       header.textContent = specie.nombre;
       body.textContent = specie.descripcionMain;
-      card.addEventListener('click', (redirect) => {
+      card.addEventListener('click', () => {
         window.location=linkText;;
       });
       speciesCardContainer.append(card);
