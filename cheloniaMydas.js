@@ -14,7 +14,6 @@ fetch('./species.json')
     subtitle.textContent = data[0].nombreCientifico;
     text.textContent = data[0].descripcionLong;
 mainContainer.append(spPage);
-    console.log(title);
   });
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
