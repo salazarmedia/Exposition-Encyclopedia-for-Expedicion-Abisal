@@ -518,14 +518,14 @@ img {
 }
 .backB {
   position: absolute;
-  top: 5rem;
+  top: 4.8rem;
   right: 2rem;
   background-color: azure;
   border: 6px solid #000063;
   border-radius: 50%;
   cursor: pointer;
-  width: 5rem;
-  height: 5rem;
+  width:4rem;
+  height: 4rem;
   z-index: 999;
   box-shadow:
   0px 0px 0.5px rgba(0, 0, 0, 0.075),
@@ -535,6 +535,7 @@ img {
   0px 0px 7.9px rgba(0, 0, 0, 0.161),
   0px 0px 19px rgba(0, 0, 0, 0.22)
 ;
+}
 #homeS {
   position: relative;
   transform: translate(12%, 8%);
