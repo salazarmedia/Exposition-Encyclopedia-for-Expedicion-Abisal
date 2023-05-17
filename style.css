@@ -430,7 +430,7 @@ input[type='search']::-webkit-search-results-decoration {
   border-radius: 0.7rem;
   line-height: 1rem;
   width: 89vw;
-  height: clamp(4.8rem, 13vw + 1rem, 7.8rem);
+  height: clamp(4.8rem, 13vw + 2.2rem, 7.8rem);
   max-width: 900px;
   padding: 0.2rem;
   cursor: pointer;
@@ -456,8 +456,8 @@ input[type='search']::-webkit-search-results-decoration {
   color: azure;
   font-family: var(--titulo);
   font-size: calc(var(--fs-subtitle) * 0.9);
-  margin-top: 1vw;
-  margin-bottom: 0.1vw;
+  margin-top: 2vw;
+  margin-bottom: 0;
   margin-right: 0.4rem;
   margin-left: 0.45rem;
   border: 2px none;
@@ -472,12 +472,13 @@ input[type='search']::-webkit-search-results-decoration {
   align-items: center;
   margin-right: 0.4rem;
   margin-left: 0.45rem;
-  margin-bottom: 0.5vw;
+  margin-bottom:2vw;
   border: 2px none;
+  transform: translate(0, -0.8rem);
 }
 .map {
-  margin-top: 0.5vw;
-  margin-bottom: 0.5vw;
+  margin-top: 1.5vw;
+  margin-bottom: 2rem;
   margin-right: 0.45rem;
   grid-area: map;
   border-radius: 0.5rem;
