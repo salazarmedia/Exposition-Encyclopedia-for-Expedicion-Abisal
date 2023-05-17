@@ -200,9 +200,12 @@ table {
   --cuerpo: 'source_sans_proregular', sans-serif;
   --subtitulo: 'source_sans_problack', Helvetica, sans-serif;
   --fs-title: clamp(1.5rem, 5vw + 1rem, 3rem);
-  --fs-description: clamp(0.5rem, 2.5vw + 0.2rem, 2rem);
-  --fs-subtitle: clamp(0.5rem, 3vw + 0.3rem, 1.5rem);
+  --fs-description: calc(clamp(0.5rem, 2.5vw + 0.2rem, 2rem) * 1.2);
+  --fs-subtitle: calc(clamp(0.5rem, 3vw + 0.3rem, 1.5rem) * 1.1);
   --fs-text: clamp(0.5rem, 2.25vw + 0.2rem, 1.5rem);
+}
+* {
+  -webkit-tap-highlight-color: transparent;
 }
 html {
   background: azure;
@@ -257,6 +260,12 @@ h2 {
   margin-top: 0.25rem;
   margin-bottom: 0.1rem;
   transform: translate(0, 50%);
+}
+input, textarea, button, select, a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:visited, a:active {
+  outline: none;
 }
 .logo {
   position: absolute;
@@ -424,6 +433,7 @@ input[type='search']::-webkit-search-results-decoration {
   height: clamp(4.8rem, 13vw + 1rem, 7.8rem);
   max-width: 900px;
   padding: 0.2rem;
+  cursor: pointer;
   box-shadow: 0px 0px 0.8px -2px rgba(0, 0, 0, 0.21),
     0px 0px 1.8px -2px rgba(0, 0, 0, 0.16),
     0px 0px 3.1px -2px rgba(0, 0, 0, 0.137),
@@ -473,7 +483,14 @@ input[type='search']::-webkit-search-results-decoration {
   border-radius: 0.5rem;
   min-width: 8rem;
   height: clamp(4rem, 11vw + 1rem, 7rem);
-  border: 2px solid red;
+}
+.minMap {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  z-index: 0;
 }
 img {
   max-width: 100%;
@@ -524,17 +541,13 @@ img {
   border: 6px solid #000063;
   border-radius: 50%;
   cursor: pointer;
-  width:3.5rem;
+  width: 3.5rem;
   height: 3.5rem;
   z-index: 999;
-  box-shadow:
-  0px 0px 0.5px rgba(0, 0, 0, 0.075),
-  0px 0px 1.3px rgba(0, 0, 0, 0.104),
-  0px 0px 2.4px rgba(0, 0, 0, 0.123),
-  0px 0px 4.2px rgba(0, 0, 0, 0.139),
-  0px 0px 7.9px rgba(0, 0, 0, 0.161),
-  0px 0px 19px rgba(0, 0, 0, 0.22)
-;
+  box-shadow: 0px 0px 0.5px rgba(0, 0, 0, 0.075),
+    0px 0px 1.3px rgba(0, 0, 0, 0.104), 0px 0px 2.4px rgba(0, 0, 0, 0.123),
+    0px 0px 4.2px rgba(0, 0, 0, 0.139), 0px 0px 7.9px rgba(0, 0, 0, 0.161),
+    0px 0px 19px rgba(0, 0, 0, 0.22);
 }
 #homeS {
   position: relative;

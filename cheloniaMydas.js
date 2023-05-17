@@ -13,15 +13,18 @@ fetch('./species.json')
     title.textContent = data[0].nombre;
     subtitle.textContent = data[0].nombreCientifico;
     text.textContent = data[0].descripcionLong;
-mainContainer.append(spPage);
+    mainContainer.append(spPage);
   });
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
+  maxZoom: 19,
 }).addTo(map);
 
-L.tileLayer('https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@1x.png?taxonKey=2442225&bin=hex&hexPerTile=50&style=iNaturalist.poly', {
+L.tileLayer(
+  'https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@1x.png?taxonKey=2442225&bin=hex&hexPerTile=50&style=iNaturalist.poly',
+  {
     maxZoom: 19,
-}).addTo(map);
+  }
+).addTo(map);
 
 map.attributionControl.setPrefix(false);

@@ -1,18 +1,69 @@
 [
   {
-    "nombre": "Tortuga Marina\nVerde",
+    "nombre": "Tortuga Marina Verde",
     "nombreCientifico": "Chelonia Mydas",
     "descripcionMain": "esta tortuga es la más común en Colombia y puede ser vista en la superficie del océano.",
     "descripcionLong": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo libero quis molestie mollis. In accumsan congue odio, vel aliquet elit ultrices et.\n\nPellentesque ante ipsum, gravida sit amet elit pharetra, porta elementum nunc. Duis augue est, porttitor eget neque vitae, malesuada posuere lorem. Nulla eget blandit arcu. Curabitur eleifend scelerisque auctor. Pellentesque elementum, dui sit amet euismod facilisis, mauris felis vulputate libero, eget tempus felis tellus posuere felis.\n\nIn sed maximus neque. Phasellus finibus massa ut eros tristique lobortis. Proin congue mauris ut fermentum tincidunt. Fusce blandit enim at lectus consequat, in mollis elit feugiat. Praesent tincidunt sapien arcu, in sagittis metus bibendum ut.",
     "taxonKey": "input",
-    "link": "cheloniaMydas.html"
+    "link": "cheloniaMydas.html",
+    "imgLink": "IMG/species/cheloniaMydasMap.png"
   },
   {
-    "nombre": "input",
-    "nombreCientifico": "input",
+    "nombre": "Pez Rape\n",
+    "nombreCientifico": "Lophius Piscatorius",
     "descripcionMain": "input",
-    "descripcionLong": "input",
+    "descripcionLong": "El rape habita en aguas que oscilan entre los 200 y 1000 metros de profundidad del noreste del océano Atlántico, el Mediterráneo y el Mar Negro. La profundidad en donde habita el pez rape depende de la etapa de vida del pez. Por ejemplo, el pez rape o L. piscatorius se desarrolla de jóven a adulto en aguas menos profundas en suelos fangosos. Al madurar, el rape migra hacia aguas más profundas para liberar sus larvas durante el periodo de desove. Del mismo modo, el pez rape tiene un estómago expandible como una adaptación morfológica que les permite consumir comidas grandes en profundidades donde la comida es muy escasa y así, se les facilita tener una mejor tasa de supervivencia.",
     "taxonKey": "input",
-    "link": "input"
+    "link": "input.html",
+    "imgLink": ""
+  },
+
+  {
+    "nombre": "Medusa Melena de León",
+    "nombreCientifico": "Cyanea Capillata",
+    "descripcionMain": "input",
+    "descripcionLong": "Vive mar adentro, en aguas profundas y heladas de la zona abisal de los océanos Ártico, Atlántico Norte y Pácifico Norte. A pesar de su evidente distancia de aguas menos profundas, se han logrado identificar avistamientos de la especie en la superficie, permitiendo hacer registros asombrosos. Uno de estos es el tamaño de la especie, siendo la medusa más grande que existe. En el 2021, por ejemplo, unos buceadores fueron sorprendidos por una medusa melena de león, cuyo tamaño alcanzaba el metro y medio, cuatro metros teniendo en cuenta los tentáculos. Por otra parte, la medusa melena de león es un animal bioluminiscente, que significa que es capaz de producir su propia luz y brillar en la oscuridad bajo el agua. Estas habilidades bioluminiscentes son adaptaciones de organismos abisales y alrededor del 90% de los animales del fondo marino la poseen.",
+    "taxonKey": "input",
+    "link": "input.html",
+    "imgLink": ""
+  },
+
+  {
+    "nombre": "Calamar Gigante",
+    "nombreCientifico": "Dosidicus Gigas",
+    "descripcionMain": "input",
+    "descripcionLong": "El calamar gigante, dosidicus gigas, puede habitar en la superficie del mar hasta los 700 metros de profundidad del océano Pacífico oriental, desde California hasta Chile. Al ser uno de los cefalópodos más grandes del mundo, tienen una gran habilidad para adaptarse y modificar su cuerpo y estilo de vida para sobrevivir en diferentes ambientes y ecosistemas marinos, lo que resulta en una amplia variedad de formas corporales y patrones de comportamiento. Otra adaptación que le permite sobrevivir en las profundidades del mar son sus órganos visuales altamente desarrollados. Por ejemplo, el dosidicus gigas tiene ojos muy grandes y complejos, que le permiten detectar y seguir a sus presas en las aguas oscuras y profundas del océano.",
+    "taxonKey": "input",
+    "link": "input.html",
+    "imgLink": ""
+  },
+  {
+    "nombre": "Pez Blob\n",
+    "nombreCientifico": "Psychrolutes marcidus",
+    "descripcionMain": "input",
+    "descripcionLong": "El Psychrolutes marcidus, comúnmente conocido como pez blob o pez gota, es una especie de pez que se encuentra en aguas profundas del sur de Australia y Tasmania. Este extraño pez tiene una forma corporal muy peculiar, con una cabeza pequeña y redondeada y un cuerpo flácido y gelatinoso, que le da la apariencia de una gota de agua o un globo. El cuerpo del pez blob está cubierto por una piel suave y elástica, que le permite adaptarse a las presiones extremas del fondo del océano. Además, su piel es de un color rosado o grisáceo, lo que le permite camuflarse y pasar desapercibido en su entorno natural. El pez blob tiene una longitud promedio de 30 cm y puede pesar hasta 1 kg. Es un pez de aguas profundas y vive a profundidades que van desde los 600 a los 1200 metros, lo que hace que sea muy difícil de estudiar y observar en su hábitat natural. El pez blob es un depredador oportunista que se alimenta de pequeños crustáceos, moluscos y otros peces que habitan en las profundidades del océano. Se cree que su lento metabolismo y su capacidad para almacenar grandes cantidades de grasa en su cuerpo le permiten sobrevivir en las condiciones extremas de su hábitat.",
+    "taxonKey": "input",
+    "link": "input.html",
+    "imgLink": ""
+  },
+
+  {
+    "nombre": "Pez Vela\n",
+    "nombreCientifico": "Istiophorus Platypterus",
+    "descripcionMain": "input",
+    "descripcionLong": "El pez vela se encuentra entre la superficie hasta 30 metros de profundidad del Océano Índico y el Océano Pacífico. Su nombre se le atribuye al parecido de su primera aleta dorsal a la vela de un barco. Posee una estructura corporal ligeramente compacta, con un pico delgado, largo y con una forma redondeada en su sección transversal. Los individuos adultos superan una longitud de 2 metros hasta incluso llegar a los de 340 centímetros con un peso de 100 kilogramos. El pez vela ocupa el segundo lugar en términos de velocidad entre los habitantes marinos, justo después del marrajo común. Puede llegar a alcanzar una velocidad de hasta 109 km/h. Esta extraordinaria rapidez se atribuye a la fuerza de sus músculos de la cola y a la forma hidrodinámica de su cuerpo, destacando su mandíbula superior en forma de espada y su aleta dorsal en forma de vela. Al habitar en aguas poco profundas, las adaptaciones del pez vela son predominantemente aquellas que le permiten una rápida y ágil locomoción en el agua y esto es facilitado por su su distintiva aleta dorsal, una musculatura caudal bien desarrollada y un cuerpo aerodinámico y esbelto que además es beneficioso para la caza y la evasión de depredadores. Con todo esto, se considera que el pez vela está en peligro de extinción debido a la pesca indiscriminada.",
+    "taxonKey": "input",
+    "link": "input.html",
+    "imgLink": ""
+  },
+
+  {
+    "nombre": "Pez Loro\n",
+    "nombreCientifico": "Scaridae",
+    "descripcionMain": "input",
+    "descripcionLong": "El pez loro, perteneciente a la familia Scaridae, es un tipo de pez tropical que se caracteriza por su vibrante coloración y su hocico protuberante en forma de pico, similar al de un loro. Estos peces suelen habitar arrecifes de coral y aguas tropicales poco profundas, generalmente a una profundidad de hasta 30 metros. Sin embargo, algunas especies de peces loro pueden encontrarse a mayores profundidades, llegando hasta los 40 o 50 metros en ocasiones. Esta especie presenta varias adaptaciones que le permite habitar en dichas profundidades como, por ejemplo, un sistema sensorial conocido como línea lateral, que les permite detectar movimientos y cambios en el agua, ayudándoles a navegar y orientarse en su entorno. Además, sus colores vibrantes sirven para camuflarse y comunicarse dentro del hábitat coralino.",
+    "taxonKey": "input",
+    "link": "input.html",
+    "imgLink": ""
   }
 ]
