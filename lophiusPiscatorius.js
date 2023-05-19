@@ -2,7 +2,7 @@ const page = document.querySelector('[main-part-template]');
 const mainContainer = document.querySelector('[main-part-wrapper]');
 
 let map = L.map('speciesmap', {zoomDelta: 0.25,
-  zoomSnap: 0}).setView([10, 0], 0.75);
+zoomSnap: 0}).setView([10, 0], 0.75);
 let taxonKey;
 
 fetch('./species.json')
@@ -12,10 +12,10 @@ fetch('./species.json')
     const title = spPage.querySelector('[species-name]');
     const subtitle = spPage.querySelector('[species-sc-name]');
     const text = spPage.querySelector('[species-desc]');
-    title.textContent = data[0].nombreMain;
-    subtitle.textContent = data[0].nombreCientifico;
-    text.textContent = data[0].descripcionLong;
-    taxonKey = data[0].taxonKey;
+    title.textContent = data[1].nombreMain;
+    subtitle.textContent = data[1].nombreCientifico;
+    text.textContent = data[1].descripcionLong;
+    taxonKey = data[1].taxonKey;
     L.tileLayer(
       'https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@1x.png?taxonKey=' + taxonKey + '&bin=hex&hexPerTile=50&style=purpleWhite.poly',
       {

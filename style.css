@@ -255,6 +255,7 @@ h1 {
 h2 {
   font-family: var(--titulo);
   font-size: calc(var(--fs-subtitle) * 1.2);
+  font-style: italic;
   color: #5d1c81;
   text-align: center;
   margin-top: 0.25rem;
@@ -275,6 +276,7 @@ a:visited, a:active {
   z-index: 99999;
 }
 #galleryt {
+  font-style: normal;
   margin-top: 0;
   margin-bottom: 0.2rem;
 }
@@ -300,7 +302,7 @@ a:visited, a:active {
   padding-left: 4vw;
   color: #6798e8;
   margin-bottom: 0.5rem;
-  transform: translate(0, -140%);
+  transform: translate(0, -100%);
 }
 #gallerydescription {
   font-family: var(--cuerpo);
@@ -430,8 +432,8 @@ input[type='search']::-webkit-search-results-decoration {
   border-radius: 0.7rem;
   line-height: 1rem;
   width: 89vw;
-  height: clamp(4.8rem, 13vw + 2.2rem, 7.8rem);
   max-width: 900px;
+  aspect-ratio: 2/0.2;
   padding: 0.2rem;
   cursor: pointer;
   box-shadow: 0px 0px 0.8px -2px rgba(0, 0, 0, 0.21),
@@ -474,16 +476,17 @@ input[type='search']::-webkit-search-results-decoration {
   margin-left: 0.45rem;
   margin-bottom:2vw;
   border: 2px none;
-  transform: translate(0, -0.8rem);
 }
 .map {
-  margin-top: 1.5vw;
+  margin-top: 1.95rem;
   margin-bottom: 2rem;
   margin-right: 0.45rem;
+  right: 2rem;
   grid-area: map;
   border-radius: 0.5rem;
-  min-width: 8rem;
-  height: clamp(4rem, 11vw + 1rem, 7rem);
+  width: 34vw;
+  max-width: 130px;
+  aspect-ratio: 2/1.2;
 }
 .minMap {
   width: 100%;

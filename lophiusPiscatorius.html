@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="map.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+    <title>Document</title>
+  </head>
+  <body id="speciesbody">
+    <a href="index.html">
+    <div class="backB">
+      <img id="homeS" src="/Exposition-Encyclopedia-for-Expedicion-Abisal/IMG/o.resources/homesymbol.svg" alt="">
+    </div>
+  </a>
+    <div class="main-wrapper" main-part-wrapper></div>
+    <div class="mapcontainer">
+      <div id="speciesmap"></div>
+    </div>
+    <p id="descmap" class="description">Mapa de registros georreferenciados</p>
+    <h2 id="galleryt">Galería</h2>
+  </p>
+  <div class="gallery-wrapper">
+    <div class="pic">
+      <img src="" alt="" />
+    </div>
+    <div class="pic">
+      <img src="" alt="" />
+    </div>
+    <div class="pic">
+      <img src="" alt="" />
+    </div>
+    <div class="pic">
+      <img src="" alt="" />
+    </div>
+    <div class="pic">
+      <img src="" alt="" />
+    </div>
+    <div class="pic">
+      <img src="" alt="" />
+    </div>
+  </div>
+  <template main-part-template>
+    <div main-part>
+    <h1 species-name></h1>
+      <h2 species-sc-name></h2>
+      <p id="speciesdescription" class="description" species-desc>
+      </p>
+    </div>
+  </template>
+    <script src="lophiusPiscatorius.js"></script>
+  </body>
+</html>
