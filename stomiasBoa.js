@@ -12,10 +12,10 @@ fetch('./species.json')
     const title = spPage.querySelector('[species-name]');
     const subtitle = spPage.querySelector('[species-sc-name]');
     const text = spPage.querySelector('[species-desc]');
-    title.textContent = data[1].nombreMain;
-    subtitle.textContent = data[1].nombreCientifico;
-    text.textContent = data[1].descripcionLong;
-    taxonKey = data[1].taxonKey;
+    title.textContent = data[7].nombreMain;
+    subtitle.textContent = data[7].nombreCientifico;
+    text.textContent = data[7].descripcionLong;
+    taxonKey = data[7].taxonKey;
     L.tileLayer(
       'https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@1x.png?taxonKey=' + taxonKey + '&bin=hex&hexPerTile=50&style=purpleWhite.poly',
       {
