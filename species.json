@@ -4,9 +4,11 @@
     "nombreMain": "Tortuga Marina\nVerde",
     "nombreCientifico": "Chelonia mydas",
     "descripcionMain": "Esta tortuga es la más común en Colombia y puede ser vista en la superficie del océano.",
-    "descripcionLong": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo libero quis molestie mollis. In accumsan congue odio, vel aliquet elit ultrices et.\n\nPellentesque ante ipsum, gravida sit amet elit pharetra, porta elementum nunc. Duis augue est, porttitor eget neque vitae, malesuada posuere lorem. Nulla eget blandit arcu. Curabitur eleifend scelerisque auctor. Pellentesque elementum, dui sit amet euismod facilisis, mauris felis vulputate libero, eget tempus felis tellus posuere felis.\n\nIn sed maximus neque. Phasellus finibus massa ut eros tristique lobortis. Proin congue mauris ut fermentum tincidunt. Fusce blandit enim at lectus consequat, in mollis elit feugiat. Praesent tincidunt sapien arcu, in sagittis metus bibendum ut.",
+    "descripcionLong": "La tortuga verde tiene una gran adaptabilidad a la vida marina y por eso están distribuidas a escala global, con preferencia hacia aguas cálidas y tropicales. Los sitios de anidación, particularmente, están ubicados entre las latitudes 30° N y 30° S principalmente por condiciones climáticas favorables para el desarrollo de sus huevos y la presencia de corrientes oceánicas beneficiosas, al igual que la disponibilidad de alimentos adecuados para su supervivencia y reproducción. A propósito de la gran adaptabilidad de esta especie, la tortuga verde tiene un sentido de orientación desarrollado a partir del campo magnético terrestre y, por eso, se orientan por medio de señales magnéticas en aguas profundas. Si bien es una especie epipelágica que habita donde la luz solar alcanza a penetrar las aguas marinas para fotosíntesis, las tortugas verdes también hacen migraciones de larga distancia, atravesando diferentes hábitats marinos e incluso alcanzando profundidades de hasta los 200 metros de profundidad en busca de alimentación, corrientes marinas o para evitar depredadores.",
     "taxonKey": "2442225",
     "link": "cheloniaMydas.html",
+
+
     "imgLink": "IMG/species/cheloniaMydasMap.png"
   },
   {
@@ -22,11 +24,11 @@
 
   {
     "nombre": "Medusa Melena de León",
-    "nombreMain": "",
+    "nombreMain": "Medusa Melena\nde León",
     "nombreCientifico": "Cyanea capillata",
     "descripcionMain": "Una medusa grande y peligrosa que vive en las aguas profundas.",
     "descripcionLong": "Vive mar adentro, en aguas profundas y heladas de la zona abisal de los océanos Ártico, Atlántico Norte y Pácifico Norte. A pesar de su evidente distancia de aguas menos profundas, se han logrado identificar avistamientos de la especie en la superficie, permitiendo hacer registros asombrosos. Uno de estos es el tamaño de la especie, siendo la medusa más grande que existe. En el 2021, por ejemplo, unos buceadores fueron sorprendidos por una medusa melena de león, cuyo tamaño alcanzaba el metro y medio, cuatro metros teniendo en cuenta los tentáculos. Por otra parte, la medusa melena de león es un animal bioluminiscente, que significa que es capaz de producir su propia luz y brillar en la oscuridad bajo el agua. Estas habilidades bioluminiscentes son adaptaciones de organismos abisales y alrededor del 90% de los animales del fondo marino la poseen.",
-    "taxonKey": "input",
+    "taxonKey": "2264478",
     "link": "cyaneaCapillata.html",
     "imgLink": ""
   },
@@ -42,8 +44,8 @@
     "imgLink": ""
   },
   {
-    "nombre": "Pez Blob",
-    "nombreMain": "Pez\nBlob",
+    "nombre": "Pez Borrón",
+    "nombreMain": "Pez\nBorrón",
     "nombreCientifico": "Psychrolutes marcidus",
     "descripcionMain": "input",
     "descripcionLong": "El Psychrolutes marcidus, comúnmente conocido como pez blob o pez gota, es una especie de pez que se encuentra en aguas profundas del sur de Australia y Tasmania. Este extraño pez tiene una forma corporal muy peculiar, con una cabeza pequeña y redondeada y un cuerpo flácido y gelatinoso, que le da la apariencia de una gota de agua o un globo. El cuerpo del pez blob está cubierto por una piel suave y elástica, que le permite adaptarse a las presiones extremas del fondo del océano. Además, su piel es de un color rosado o grisáceo, lo que le permite camuflarse y pasar desapercibido en su entorno natural. El pez blob tiene una longitud promedio de 30 cm y puede pesar hasta 1 kg. Es un pez de aguas profundas y vive a profundidades que van desde los 600 a los 1200 metros, lo que hace que sea muy difícil de estudiar y observar en su hábitat natural. El pez blob es un depredador oportunista que se alimenta de pequeños crustáceos, moluscos y otros peces que habitan en las profundidades del océano. Se cree que su lento metabolismo y su capacidad para almacenar grandes cantidades de grasa en su cuerpo le permiten sobrevivir en las condiciones extremas de su hábitat.",
@@ -71,6 +73,39 @@
     "descripcionLong": "El pez loro, perteneciente a la familia Scaridae, es un tipo de pez tropical que se caracteriza por su vibrante coloración y su hocico protuberante en forma de pico, similar al de un loro. Estos peces suelen habitar arrecifes de coral y aguas tropicales poco profundas, generalmente a una profundidad de hasta 30 metros. Sin embargo, algunas especies de peces loro pueden encontrarse a mayores profundidades, llegando hasta los 40 o 50 metros en ocasiones. Esta especie presenta varias adaptaciones que le permite habitar en dichas profundidades como, por ejemplo, un sistema sensorial conocido como línea lateral, que les permite detectar movimientos y cambios en el agua, ayudándoles a navegar y orientarse en su entorno. Además, sus colores vibrantes sirven para camuflarse y comunicarse dentro del hábitat coralino.",
     "taxonKey": "input",
     "link": "scaridae.html",
+    "imgLink": ""
+  },
+
+  {
+    "nombre": "Pez Dragón",
+    "nombreMain": "Pez\nDragón",
+    "nombreCientifico": "Stomias boa",
+    "descripcionMain": "input",
+    "descripcionLong": "Es una especie de peces de aguas abisales perteneciente a la familia Stomiidae. Su distribución y hábitat depende de las condiciones oceánicas, disponibilidad de alimento, características del hábitat y comportamientos reproductivos y migratorios. La especie habita principalmente en aguas profundas del océano, preferiblemente frías y se adapta a la disponibilidad de alimento que puede encontrar en montañas submarinas donde también encuentra refugio. Aunque es una especie que habita en aguas profundas y la información sobre su distribución y hábitat pueda ser limitada, se ha podido estudiar su comportamiento reproductivo y migratorio. El pez dragón hace migraciones verticales cotidianamente hacia aguas más superficiales durante la noche para alimentarse y, por otro lado, permanece en las profundidades durante el día e igualmente logra alimentarse gracias a sus capacidades bioluminiscentes que le permiten atraer a sus presas mediante la emisión de luz. En cuanto al desove de la especie, hace migraciones verticales durante ciertas temporalidades del año para reproducirse.",
+    "taxonKey": "input",
+    "link": "stomiasBoa.html",
+    "imgLink": ""
+  },
+
+  {
+    "nombre": "Pez Cabeza Transparente",
+    "nombreMain": "Pez Cabeza\nTransparente",
+    "nombreCientifico": "Macropinna microstoma",
+    "descripcionMain": "input",
+    "descripcionLong": "El pez cabeza transparente es un pez abisal que habita profundidades marinas entre los 600 y 800 metros bajo el mar, principalmente en la costa de California y océano Pacífico Norte. Se caracteriza por tener una cabeza transparente en contraste con la opacidad del resto de su cuerpo, permitiéndole ampliar su campo de visión y detectar presas en la oscuridad abisal. Lo que aparentan ser sus ojos son, por el contrario, sus órganos olfativos, los cuales son dos orificios negros en la parte superior de su boca. Esta adaptación le permite detectar rastros químicos y seguir olores en el agua, lo que es esencial para su capacidad de búsqueda de alimentos y su interacción con el entorno en las profundidades del océano.",
+    "taxonKey": "input",
+    "link": "macropinnaMicrostoma.html",
+    "imgLink": ""
+  },
+
+  {
+    "nombre": "Coral Chicle",
+    "nombreMain": "Coral\nChicle",
+    "nombreCientifico": "Paragorgia arborea",
+    "descripcionMain": "input",
+    "descripcionLong": "Son organismos invertebrados que habitan en ecosistemas de aguas profundas y, simultáneamente, juegan un papel ecológico importante para estos ecosistemas por su capacidad de proporcionar hábitat, refugio, alimentación y contribuir a la biodiversidad. Es decir, su presencia y salud son indicadores importantes de la salud general de estos ecosistemas delicados y poco explorados. Los Bubblegum Octocorals son, también, uno de los grupos de invertebrados bentónicos sésiles más abundantes y ampliamente distribuidos en los ecosistemas de aguas profundas y su nombre se le atribuye a las puntas redondeadas y carnosas que se asemejan a las burbujas de chicle. En cuanto a las adaptaciones específicas que han desarrollado para sobrevivir y prosperar en las aguas profundas, los Bubblegum Octocorals tienen una estructura resistente que les permite soportar la presión y las corrientes fuertes, como también han desarrollado adaptaciones para maximizar la captura de partículas alimenticias por medio de sus tentáculos que están equipados con células especializadas para la captura y filtración del plancton y otras partículas orgánicas presentes en el agua.",
+    "taxonKey": "input",
+    "link": "paragorgiaArborea.html",
     "imgLink": ""
   }
 ]

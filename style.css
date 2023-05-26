@@ -289,11 +289,12 @@ a:visited, a:active {
   grid-column: span 4;
   font-family: var(--cuerpo-importante);
   font-size: var(--fs-description);
+  hyphens: auto;
 }
 #speciesdescription {
   font-family: var(--cuerpo);
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 #descmap {
   font-family: var(--cuerpo);
